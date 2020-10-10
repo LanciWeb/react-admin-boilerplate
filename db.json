@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": 1,
-      "title": "Post One",
+      "title": "Post Zero",
       "body": "This is the post body",
       "publishedAt": "10-01-2020"
     },
@@ -27,9 +27,9 @@
   ],
   "users": [
     {
+      "name": "scripts",
       "id": 1,
-      "name": "John Doe",
-      "email": "john@test.com"
+      "email": "rewr"
     }
   ]
 }
