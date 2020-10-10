@@ -1,11 +1,10 @@
 {
   "name": "react-admin-boilerplate",
-  "proxy": "http://localhost:5000",
   "version": "1.0.0",
   "description": "A boilerplate to try React Admin",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --port 5000",
+    "server": "json-server --watch db.json --port 5000 --middlewares range.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
