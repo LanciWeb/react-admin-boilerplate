@@ -5,7 +5,8 @@
   "description": "A boilerplate to try React Admin",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000",
+    "client": "npm start --prefix client"
   },
   "repository": {
     "type": "git",
