@@ -4,6 +4,7 @@ const PostEdit = (props) => {
   return (
     <Edit title="Edit a Post" {...props}>
       <SimpleForm>
+        <TextInput disabled source="id" />
         <TextInput source="title" />
         <TextInput multiline source="body" />
         <DateInput label="Published" source="publishedAt" />
